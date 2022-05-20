@@ -55,7 +55,7 @@ pip3 install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar
 ## Running
 
 ```bash
-# Create folders for work
+# Create folders where audio files will appear
 mkdir data
 mkdir speech
 
