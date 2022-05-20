@@ -67,6 +67,7 @@ python record_and_split.py
 ## Help
 
 - If you have any issues - [create an issue in the repository](https://github.com/egorsmkv/asr-corpus-by-microphone/issues/new)
+- Currently tested on Linux and MacOS, for Windows you need to change the script slightly
 
 ## Acknowledgements
 
