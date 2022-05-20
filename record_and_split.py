@@ -19,6 +19,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1 
 RATE = 16000
 RECORD_SECONDS = 20
+REMOVE_ORIGINAL_RECORDING = False
 
 
 def split_speech(filename):
@@ -36,7 +37,8 @@ def split_speech(filename):
 
         print(f'File {save_dir} saved')
     
-    os.remove(filename)
+    if REMOVE_ORIGINAL_RECORDING:
+        os.remove(filename)
 
 
 def run():
