@@ -17,8 +17,19 @@ Watch video below to see how it works:
 
 Install Python requirements:
 
+### Linux
+
 ```
 pip install wave torch torchaudio pyaudio
+```
+
+### MacOS
+
+```
+brew install portaudio
+
+pip install wave torch torchaudio
+pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio
 ```
 
 ## Running
