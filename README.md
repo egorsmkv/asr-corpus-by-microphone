@@ -20,6 +20,7 @@ Install Python requirements:
 ### Linux
 
 ```bash
+# the author has successfully tested the project with wave=0.0.2, torch==1.11.0, torchaudio==0.11.0, and pyaudio==0.2.11 
 pip install wave torch torchaudio pyaudio
 ```
 
