@@ -19,13 +19,13 @@ Install Python requirements:
 
 ### Linux
 
-```
+```bash
 pip install wave torch torchaudio pyaudio
 ```
 
 ### MacOS
 
-```
+```bash
 brew install portaudio
 
 pip install wave
@@ -36,28 +36,30 @@ To install torch and torchaudio on MacOS you need to install [conda](https://doc
 
 For Intel:
 
-```
+```bash
 conda install pytorch torchaudio -c pytorch
 ```
 
 For M1:
-```
+```bash
 pip3 install torch torchaudio
 ```
 
 If you have problems with installation of pyaudio, then check out [this link](https://stackoverflow.com/questions/33513522/when-installing-pyaudio-pip-cannot-find-portaudio-h-in-usr-local-include). For me below command works:
 
-```
+```bash
 pip3 install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar/portaudio/19.7.0/include/' --global-option='-L/opt/homebrew/Cellar/portaudio/19.7.0/lib/' pyaudio
 ```
 
 ## Running
 
-```
+```bash
 # Create folders for work
 mkdir data
 mkdir speech
 
+# Run the loop (this script will record audio speech and save it into the speech/ folder)
+# Use Ctrl-C to stop the script
 python record_and_split.py
 ```
 
