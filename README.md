@@ -8,6 +8,11 @@ Watch video below to see how it works:
 
 <a href="https://www.youtube.com/watch?v=WLPNZElikOc"><img src="./demo.png" width="200"></a>
 
+### Examples of Usage
+
+- Collect ASR Corpus with your computer in places without internet connection (it's important for low-resourced languages)
+- Split your speech to chunks
+
 ## Installation
 
 Install Python requirements:
