@@ -34,8 +34,15 @@ pip install --global-option='build_ext' --global-option='-I/usr/local/include' -
 
 To install torch and torchaudio on MacOS you need to install [conda](https://docs.conda.io/en/latest/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install torch libraries:
 
+For Intel:
+
 ```
 conda install pytorch torchvision torchaudio -c pytorch
+```
+
+For M1:
+```
+pip3 install torch torchvision torchaudio
 ```
 
 ## Running
