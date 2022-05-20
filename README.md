@@ -6,6 +6,8 @@ This repository contains code to run a script that collects speech data from you
 
 Watch video below to see how it works:
 
+<a href="https://www.youtube.com/watch?v=WLPNZElikOc"><img src="./demo.png" width="200"></a>
+
 ## Installation
 
 Install Python requirements:
