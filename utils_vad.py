@@ -4,6 +4,8 @@ from typing import List
 import torch.nn.functional as F
 import warnings
 
+torchaudio.set_audio_backend("sox_io")
+
 
 def read_audio(path: str, sampling_rate: int = 16000):
     wav, sr = torchaudio.load(path)
@@ -23,8 +25,9 @@ def read_audio(path: str, sampling_rate: int = 16000):
 
 def save_audio(path: str,
                tensor: torch.Tensor,
-               sampling_rate: int = 16000):
-    torchaudio.save(path, tensor.unsqueeze(0), sampling_rate)
+               sampling_rate: int = 16000,
+               bits_per_sample=16):
+    torchaudio.save(path, tensor.unsqueeze(0), sample_rate=sampling_rate, bits_per_sample=bits_per_sample)
 
 
 def init_jit_model(model_path: str,
