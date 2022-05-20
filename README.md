@@ -37,12 +37,12 @@ To install torch and torchaudio on MacOS you need to install [conda](https://doc
 For Intel:
 
 ```
-conda install pytorch torchvision torchaudio -c pytorch
+conda install pytorch torchaudio -c pytorch
 ```
 
 For M1:
 ```
-pip3 install torch torchvision torchaudio
+pip3 install torch torchaudio
 ```
 
 ## Running
