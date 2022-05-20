@@ -58,7 +58,7 @@ pip3 install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar
 mkdir data
 mkdir speech
 
-# Run the loop (this script will record audio speech and save it into the speech/ folder)
+# Run the loop (this script will record speech and save it into the speech/ folder)
 # Use Ctrl-C to stop the script
 python record_and_split.py
 ```
