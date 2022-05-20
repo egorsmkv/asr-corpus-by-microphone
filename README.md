@@ -26,6 +26,10 @@ mkdir speech
 python record_and_split.py
 ```
 
+## Help
+
+- If you have any issues - [create an issue in the repository](https://github.com/egorsmkv/asr-corpus-by-microphone/issues/new)
+
 ## Acknowledgements
 
 - Silero VAD: https://github.com/snakers4/silero-vad
