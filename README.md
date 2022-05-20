@@ -28,8 +28,14 @@ pip install wave torch torchaudio pyaudio
 ```
 brew install portaudio
 
-pip install wave torch torchaudio
+pip install wave
 pip install --global-option='build_ext' --global-option='-I/usr/local/include' --global-option='-L/usr/local/lib' pyaudio
+```
+
+To install torch and torchaudio on MacOS you need to install [conda](https://docs.conda.io/en/latest/) or [miniconda](https://docs.conda.io/en/latest/miniconda.html) and then install torch libraries:
+
+```
+conda install pytorch torchvision torchaudio -c pytorch
 ```
 
 ## Running
