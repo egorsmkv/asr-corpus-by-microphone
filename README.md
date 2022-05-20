@@ -11,7 +11,7 @@ Watch video below to see how it works:
 ### Examples of Usage
 
 - Collect ASR Corpus with your computer in places without internet connection (it's important for low-resourced languages)
-- Split your speech to chunks
+- Split speech to chunks by Voice Activity Detection mechanism
 
 ## Installation
 
